@@ -245,3 +245,24 @@ DEPENDENCIES
   bootsnap
   capybara
   debug
+  devise
+  dotenv-rails
+  importmap-rails
+  jbuilder
+  pg
+  puma (~> 5.0)
+  rails (~> 7.0.4)
+  rspec-rails (~> 6.0.0)
+  selenium-webdriver
+  sprockets-rails
+  stimulus-rails
+  turbo-rails
+  tzinfo-data
+  web-console
+  webdrivers
+
+RUBY VERSION
+   ruby 3.1.2p20
+
+BUNDLED WITH
+   2.3.7
