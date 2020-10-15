@@ -1,0 +1,1 @@
+class AdminController < ApplicationControll
