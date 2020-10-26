@@ -7,4 +7,9 @@ class AdminController < ApplicationController
       @user.user_type = 'trader'
       if @user.save!
         flash.now[:notice] = "save"
-        redirect_to root_
+        redirect_to root_path
+      else
+        flash.now[:notice] = "not save"
+        render admin_new_path
+      end
+ 
