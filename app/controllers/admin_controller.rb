@@ -4,4 +4,7 @@ class AdminController < ApplicationController
   def create_user
     flash.now[:notice] = "save"
     @user = User.new(params.permit(:email, :password))
-      @user.user_type
+      @user.user_type = 'trader'
+      if @user.save!
+        flash.now[:notice] = "save"
+        redirect_to root_
