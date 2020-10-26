@@ -12,4 +12,8 @@ class AdminController < ApplicationController
         flash.now[:notice] = "not save"
         render admin_new_path
       end
- 
+  end
+
+  def trader_list
+    @users = User.where.not(user_type: 'admin')
+    re
