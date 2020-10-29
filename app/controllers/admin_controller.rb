@@ -21,4 +21,10 @@ class AdminController < ApplicationController
 
   def trader_details
     @user = User.find(params[:id])
+    render 'users/show'
+  end
+
+  def edit_trader
+    @user = User.find(params[:id])
+    render 'users/edit'
  
