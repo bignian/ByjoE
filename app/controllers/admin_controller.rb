@@ -16,4 +16,9 @@ class AdminController < ApplicationController
 
   def trader_list
     @users = User.where.not(user_type: 'admin')
-    re
+    render 'users/index'
+  end
+
+  def trader_details
+    @user = User.find(params[:id])
+ 
