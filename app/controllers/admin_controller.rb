@@ -27,4 +27,8 @@ class AdminController < ApplicationController
   def edit_trader
     @user = User.find(params[:id])
     render 'users/edit'
- 
+  end
+
+  def update_trader
+    @user = User.find(params[:user][:id])
+    if @user.upda
