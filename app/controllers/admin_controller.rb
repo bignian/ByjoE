@@ -31,4 +31,7 @@ class AdminController < ApplicationController
 
   def update_trader
     @user = User.find(params[:user][:id])
-    if @user.upda
+    if @user.update(user_params)
+      redirect_to "/admin/trader_list"
+    else
+      render 'users/edit
