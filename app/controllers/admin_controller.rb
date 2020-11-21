@@ -34,4 +34,10 @@ class AdminController < ApplicationController
     if @user.update(user_params)
       redirect_to "/admin/trader_list"
     else
-      render 'users/edit
+      render 'users/edit'
+    end
+  end
+
+  private
+  def user_params
+      params.require(:user).permit(:email, :id
