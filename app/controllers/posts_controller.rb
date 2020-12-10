@@ -25,4 +25,8 @@ class PostsController < ApplicationController
   def edit
   end
 
-  # POST /posts or /posts.j
+  # POST /posts or /posts.json
+  def create
+    @post = Post.new(post_params)
+
+    respond_to do |format|
