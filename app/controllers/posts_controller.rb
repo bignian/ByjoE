@@ -44,4 +44,5 @@ class PostsController < ApplicationController
   def update
     respond_to do |format|
       if @post.update(post_params)
-        forma
+        format.html { redirect_to post_url(@post), notice: "Post was successfully updated." }
+       
