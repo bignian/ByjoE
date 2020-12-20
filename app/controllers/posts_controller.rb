@@ -41,3 +41,7 @@ class PostsController < ApplicationController
   end
 
   # PATCH/PUT /posts/1 or /posts/1.json
+  def update
+    respond_to do |format|
+      if @post.update(post_params)
+        forma
