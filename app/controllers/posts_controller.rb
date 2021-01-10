@@ -47,4 +47,5 @@ class PostsController < ApplicationController
         format.html { redirect_to post_url(@post), notice: "Post was successfully updated." }
         format.json { render :show, status: :ok, location: @post }
       else
-        format.html 
+        format.html { render :edit, status: :unprocessable_entity }
+        format.json { rende
