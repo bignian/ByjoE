@@ -53,4 +53,8 @@ class PostsController < ApplicationController
     end
   end
 
- 
+  # DELETE /posts/1 or /posts/1.json
+  def destroy
+    @post.destroy
+
+    respond_to
