@@ -64,4 +64,6 @@ class PostsController < ApplicationController
   end
 
   private
-    # Use ca
+    # Use callbacks to share common setup or constraints between actions.
+    def set_post
+      
