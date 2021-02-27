@@ -1,2 +1,4 @@
 class TradersController < ApplicationController
-    before_action :a
+    before_action :authenticate_user!
+
+end
