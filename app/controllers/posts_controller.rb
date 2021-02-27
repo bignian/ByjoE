@@ -69,4 +69,6 @@ class PostsController < ApplicationController
       @post = Post.find(params[:id])
     end
 
-    # Only allow a list of trusted parameters through
+    # Only allow a list of trusted parameters through.
+    def post_params
+      params.require(:post).permit(:name, :title, :content)
