@@ -2,4 +2,7 @@
 
 <%= form_with model: @user, url: '/create_user', method: :post do |form| %>
   <%= form.email_field :email, placeholder: "Email" %>
-  <%= form.password_field :password, pl
+  <%= form.password_field :password, placeholder: "Password" %>
+
+  <%= form.submit 'Create user' %>
+<% end %>
