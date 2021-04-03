@@ -1,3 +1,5 @@
 <h1>Create</h1>
 
-<%= form_with model: @user, url: '/create_user', method: :post do
+<%= form_with model: @user, url: '/create_user', method: :post do |form| %>
+  <%= form.email_field :email, placeholder: "Email" %>
+  <%= form.password_field :password, pl
