@@ -11,4 +11,6 @@
     <%= f.password_field :password, autocomplete: "current-password" %>
   </div>
 
-  <% i
+  <% if devise_mapping.rememberable? %>
+    <div class="field">
+      <%= f.check_box :r
