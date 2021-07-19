@@ -2,4 +2,5 @@
   <div id="error_explanation">
     <h2>
       <%= I18n.t("errors.messages.not_saved",
-  
+                 count: resource.errors.count,
+                 resource: resource.class.mo
