@@ -19,4 +19,5 @@
 <% end %>
 
 <%- if devise_mapping.omniauthable? %>
-  <%- resourc
+  <%- resource_class.omniauth_providers.each do |provider| %>
+    <%= link_to "Sign in with #{OmniAuth::Utils.ca
