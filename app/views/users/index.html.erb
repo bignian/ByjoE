@@ -1,2 +1,9 @@
 
 <h1>List of All Traders</h1>
+
+<% @users.each do |user| %>
+  <%= user.id %>
+  <%= user.email %>
+  <%= link_to 'Show', "/admin/trader_details/#{user.id}" %>
+  <br/>
+<% end %>
