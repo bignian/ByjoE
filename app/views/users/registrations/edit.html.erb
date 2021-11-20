@@ -8,4 +8,5 @@
     <%= f.email_field :email, autofocus: true, autocomplete: "email" %>
   </div>
 
-  <
+  <% if devise_mapping.confirmable? && resource.pending_reconfirmation? %>
+    <div>Currently wait
