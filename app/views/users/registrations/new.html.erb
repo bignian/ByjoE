@@ -10,4 +10,6 @@
 
   <div class="field">
     <%= f.label :password %>
-    <% if @minimum_pass
+    <% if @minimum_password_length %>
+    <em>(<%= @minimum_password_length %> characters minimum)</em>
+    
