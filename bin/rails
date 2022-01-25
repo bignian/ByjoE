@@ -1,0 +1,2 @@
+#!/usr/bin/env ruby
+APP_PATH = File.expand_path(".
