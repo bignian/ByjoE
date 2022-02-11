@@ -8,4 +8,7 @@ Bundler.require(*Rails.groups)
 
 module TradingApp
   class Application < Rails::Application
-    # Initialize configuration defaults fo
+    # Initialize configuration defaults for originally generated Rails version.
+    config.load_defaults 7.0
+
+   
