@@ -13,4 +13,7 @@ module TradingApp
 
     # Configuration for the application, engines, and railties goes here.
     #
-    # These settings can be overridden in specific environments using t
+    # These settings can be overridden in specific environments using the files
+    # in config/environments, which are processed later.
+    #
+    #
