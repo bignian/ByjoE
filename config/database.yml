@@ -8,4 +8,9 @@ default: &default
   port: 5432
 
 development:
- 
+  <<: *default
+  database: trading_postgresql
+
+test:
+  <<: *default
+  database: tradi
