@@ -13,4 +13,8 @@ development:
 
 test:
   <<: *default
-  database: tradi
+  database: trading_test
+  
+production:
+  <<: *default
+  database: trading_prod
