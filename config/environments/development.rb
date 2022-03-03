@@ -17,4 +17,6 @@ Rails.application.configure do
   # Enable server timing
   config.server_timing = true
 
-  
+  config.action_mailer.default_url_options = { host: 'localhost', port: 3000 }
+
+  # Enable/d
