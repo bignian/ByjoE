@@ -25,4 +25,6 @@ Rails.application.configure do
     config.action_controller.perform_caching = true
     config.action_controller.enable_fragment_cache_logging = true
 
-    conf
+    config.cache_store = :memory_store
+    config.public_file_server.headers = {
+     
