@@ -56,4 +56,6 @@ Rails.application.configure do
   config.active_record.migration_error = :page_load
 
   # Highlight code that triggered database queries in logs.
-  con
+  config.active_record.verbose_query_logs = true
+
+  # Suppress logger output for ass
