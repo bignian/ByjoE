@@ -58,4 +58,7 @@ Rails.application.configure do
   # Highlight code that triggered database queries in logs.
   config.active_record.verbose_query_logs = true
 
-  # Suppress logger output for ass
+  # Suppress logger output for asset requests.
+  config.assets.quiet = true
+
+  # Raises error for missing transla
