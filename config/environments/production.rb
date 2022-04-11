@@ -31,4 +31,6 @@ Rails.application.configure do
   config.assets.compile = false
 
   # Enable serving of images, stylesheets, and JavaScripts from an asset server.
-  # confi
+  # config.asset_host = "http://assets.example.com"
+
+  # Specifies the header that your server
