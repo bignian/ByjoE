@@ -42,4 +42,5 @@ Rails.application.configure do
 
   # Mount Action Cable outside main process or domain.
   # config.action_cable.mount_path = nil
-  # config.actio
+  # config.action_cable.url = "wss://example.com/cable"
+  # config.action_cable.allowed_req
