@@ -49,4 +49,7 @@ Rails.application.configure do
   # config.force_ssl = true
 
   # Include generic and useful information about system operation, but avoid logging too much
-  # information to avoid inadvertent exposure of personally
+  # information to avoid inadvertent exposure of personally identifiable information (PII).
+  config.log_level = :info
+
+  # Prepen
