@@ -12,4 +12,5 @@ Rails.application.configure do
   config.cache_classes = true
 
   # Eager loading loads your whole application. When running a single test locally,
-  # 
+  # this probably isn't necessary. It's a good idea to do in a continuous integration
+  # system, 
