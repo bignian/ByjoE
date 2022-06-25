@@ -21,4 +21,5 @@ Devise.setup do |config|
   # config.parent_controller = 'DeviseController'
 
   # ==> Mailer Configuration
-  # Configure the 
+  # Configure the e-mail address which will be shown in Devise::Mailer,
+  # note that it will be overwritten if you u
