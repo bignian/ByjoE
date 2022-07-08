@@ -42,4 +42,5 @@ Devise.setup do |config|
   # Configure which keys are used when authenticating a user. The default is
   # just :email. You can configure it to use [:username, :subdomain], so for
   # authenticating a user, both parameters are required. Remember that those
-  # p
+  # parameters are used only when authenticating and not when retrieving from
+  # session. If you
