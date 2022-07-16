@@ -55,4 +55,5 @@ Devise.setup do |config|
   # The same considerations mentioned for authentication_keys also apply to request_keys.
   # config.request_keys = []
 
-  # Configure whi
+  # Configure which authentication keys should be case-insensitive.
+  # These keys will be downcased upon creating
