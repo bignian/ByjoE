@@ -56,4 +56,5 @@ Devise.setup do |config|
   # config.request_keys = []
 
   # Configure which authentication keys should be case-insensitive.
-  # These keys will be downcased upon creating
+  # These keys will be downcased upon creating or modifying a user and when used
+  # to authenticate or find a user. Default is :emai
