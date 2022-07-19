@@ -61,4 +61,5 @@ Devise.setup do |config|
   config.case_insensitive_keys = [:email]
 
   # Configure which authentication keys should have whitespace stripped.
-  # These keys will have whitespace before and after re
+  # These keys will have whitespace before and after removed upon creating or
+  # modifying a user and when used to authenticate or find a user. Default is
