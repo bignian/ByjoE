@@ -65,4 +65,5 @@ Devise.setup do |config|
   # modifying a user and when used to authenticate or find a user. Default is :email.
   config.strip_whitespace_keys = [:email]
 
-  # Tell if authentication thr
+  # Tell if authentication through request.params is enabled. True by default.
+  # It can be set to an array that wil
