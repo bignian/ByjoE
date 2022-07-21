@@ -66,4 +66,5 @@ Devise.setup do |config|
   config.strip_whitespace_keys = [:email]
 
   # Tell if authentication through request.params is enabled. True by default.
-  # It can be set to an array that wil
+  # It can be set to an array that will enable params authentication only for the
+  # given strategies, for example, `config.p
