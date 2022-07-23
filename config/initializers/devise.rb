@@ -71,4 +71,5 @@ Devise.setup do |config|
   # enable it only for database (email + password) authentication.
   # config.params_authenticatable = true
 
-  # Tell if authentication through HTTP
+  # Tell if authentication through HTTP Auth is enabled. False by default.
+  # It can be set to an array that will enable ht
