@@ -82,4 +82,6 @@ Devise.setup do |config|
   # config.http_authenticatable = false
 
   # If 401 status code should be returned for AJAX requests. True by default.
-  # 
+  # config.http_authenticatable_on_xhr = true
+
+  # The realm used in Http Basic Authentication. 'App
