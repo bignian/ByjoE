@@ -81,4 +81,5 @@ Devise.setup do |config|
   # :database      = Support basic authentication with authentication key + password
   # config.http_authenticatable = false
 
-  # If
+  # If 401 status code should be returned for AJAX requests. True by default.
+  # 
