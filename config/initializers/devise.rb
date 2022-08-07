@@ -85,4 +85,7 @@ Devise.setup do |config|
   # config.http_authenticatable_on_xhr = true
 
   # The realm used in Http Basic Authentication. 'Application' by default.
-  # config.http_authentication_realm = 'Application
+  # config.http_authentication_realm = 'Application'
+
+  # It will change confirmation, password recovery and other workflows
+  # to behave the sam
