@@ -88,4 +88,5 @@ Devise.setup do |config|
   # config.http_authentication_realm = 'Application'
 
   # It will change confirmation, password recovery and other workflows
-  # to behave the sam
+  # to behave the same regardless if the e-mail provided was right or wrong.
+  # Does not affect registe
