@@ -92,4 +92,5 @@ Devise.setup do |config|
   # Does not affect registerable.
   # config.paranoid = true
 
-  # By default Devise will store t
+  # By default Devise will store the user in session. You can skip storage for
+  # particular strategies by setting this o
