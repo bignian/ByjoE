@@ -100,4 +100,6 @@ Devise.setup do |config|
   config.skip_session_storage = [:http_auth]
 
   # By default, Devise cleans up the CSRF token on authentication to
-  # avoid CSRF token fixation attacks. This means that, when using AJA
+  # avoid CSRF token fixation attacks. This means that, when using AJAX
+  # requests for sign in and sign up, you need to get a new CSRF token
+  # from 
