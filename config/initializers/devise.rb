@@ -103,4 +103,6 @@ Devise.setup do |config|
   # avoid CSRF token fixation attacks. This means that, when using AJAX
   # requests for sign in and sign up, you need to get a new CSRF token
   # from the server. You can disable this option at your own risk.
-  # config.clean_up_csrf_token_o
+  # config.clean_up_csrf_token_on_authentication = true
+
+  # When false, Devise will not attempt to reload rou
