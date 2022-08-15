@@ -106,4 +106,6 @@ Devise.setup do |config|
   # config.clean_up_csrf_token_on_authentication = true
 
   # When false, Devise will not attempt to reload routes on eager load.
-  # This can reduce the time taken to boot the app but if your applica
+  # This can reduce the time taken to boot the app but if your application
+  # requires the Devise mappings to be loaded during boot time the application
+  # won't boot
