@@ -112,4 +112,5 @@ Devise.setup do |config|
   # config.reload_routes = true
 
   # ==> Configuration for :database_authenticatable
-  # 
+  # For bcrypt, this is the cost for hashing the password and defaults to 12. If
+  # using other algorith
