@@ -108,4 +108,8 @@ Devise.setup do |config|
   # When false, Devise will not attempt to reload routes on eager load.
   # This can reduce the time taken to boot the app but if your application
   # requires the Devise mappings to be loaded during boot time the application
-  # won't boot
+  # won't boot properly.
+  # config.reload_routes = true
+
+  # ==> Configuration for :database_authenticatable
+  # 
