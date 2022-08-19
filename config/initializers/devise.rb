@@ -115,4 +115,5 @@ Devise.setup do |config|
   # For bcrypt, this is the cost for hashing the password and defaults to 12. If
   # using other algorithms, it sets how many times you want the password to be hashed.
   # The number of stretches used for generating the hashed password are stored
-  # with the hashed password. T
+  # with the hashed password. This allows you to change the stretches without
+  # invalidating ex
