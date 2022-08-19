@@ -114,4 +114,5 @@ Devise.setup do |config|
   # ==> Configuration for :database_authenticatable
   # For bcrypt, this is the cost for hashing the password and defaults to 12. If
   # using other algorithms, it sets how many times you want the password to be hashed.
-  # The nu
+  # The number of stretches used for generating the hashed password are stored
+  # with the hashed password. T
