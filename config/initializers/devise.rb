@@ -118,4 +118,5 @@ Devise.setup do |config|
   # with the hashed password. This allows you to change the stretches without
   # invalidating existing passwords.
   #
-  # Limiting the stretches to just one in testing 
+  # Limiting the stretches to just one in testing will increase the performance of
+  # your test suite dramatically. However, it is STRONG
