@@ -120,4 +120,5 @@ Devise.setup do |config|
   #
   # Limiting the stretches to just one in testing will increase the performance of
   # your test suite dramatically. However, it is STRONGLY RECOMMENDED to not use
-  # a value less than 10 in other environments. Note t
+  # a value less than 10 in other environments. Note that, for bcrypt (the default
+  # algorithm), the cost increases 
