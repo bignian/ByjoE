@@ -135,3 +135,5 @@ Devise.setup do |config|
   # config.send_password_change_notification = false
 
   # ==> Configuration for :confirmable
+  # A period that the user is allowed to access the website even without
+  # confi
