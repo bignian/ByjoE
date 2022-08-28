@@ -136,4 +136,5 @@ Devise.setup do |config|
 
   # ==> Configuration for :confirmable
   # A period that the user is allowed to access the website even without
-  # confi
+  # confirming their account. For instance, if set to 2.days, the user will be
+  # able to access t
