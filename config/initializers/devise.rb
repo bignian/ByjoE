@@ -138,4 +138,5 @@ Devise.setup do |config|
   # A period that the user is allowed to access the website even without
   # confirming their account. For instance, if set to 2.days, the user will be
   # able to access the website for two days without confirming their account,
-  # access will 
+  # access will be blocked just in the third day.
+  # You can also set it to nil, which will allow the use
