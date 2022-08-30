@@ -141,4 +141,6 @@ Devise.setup do |config|
   # access will be blocked just in the third day.
   # You can also set it to nil, which will allow the user to access the website
   # without confirming their account.
-  # Default is 0.days, meaning 
+  # Default is 0.days, meaning the user cannot access the website without
+  # confirming their account.
+  # confi
