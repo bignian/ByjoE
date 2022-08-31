@@ -145,4 +145,5 @@ Devise.setup do |config|
   # confirming their account.
   # config.allow_unconfirmed_access_for = 2.days
 
-  # A period that the user is allowed to confirm their account 
+  # A period that the user is allowed to confirm their account before their
+  # token becomes invalid. For example, if set to 3.days, the user
