@@ -149,4 +149,6 @@ Devise.setup do |config|
   # token becomes invalid. For example, if set to 3.days, the user can confirm
   # their account within 3 days after the mail was sent, but on the fourth day
   # their account can't be confirmed with the token any more.
-  # Default is nil, mean
+  # Default is nil, meaning there is no restriction on how long a user can take
+  # before confirming their account.
+  # config.
