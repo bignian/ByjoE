@@ -151,4 +151,6 @@ Devise.setup do |config|
   # their account can't be confirmed with the token any more.
   # Default is nil, meaning there is no restriction on how long a user can take
   # before confirming their account.
-  # config.
+  # config.confirm_within = 3.days
+
+  # If true, requires any email changes to be confirmed (exactly the same way as
