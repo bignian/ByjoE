@@ -160,4 +160,7 @@ Devise.setup do |config|
   config.reconfirmable = true
 
   # Defines which key will be used when confirming an account
-  # config.
+  # config.confirmation_keys = [:email]
+
+  # ==> Configuration for :rememberable
+  # Th
