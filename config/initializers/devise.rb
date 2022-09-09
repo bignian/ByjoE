@@ -163,4 +163,5 @@ Devise.setup do |config|
   # config.confirmation_keys = [:email]
 
   # ==> Configuration for :rememberable
-  # Th
+  # The time the user will be remembered without asking for credentials again.
+  # co
