@@ -164,4 +164,6 @@ Devise.setup do |config|
 
   # ==> Configuration for :rememberable
   # The time the user will be remembered without asking for credentials again.
-  # co
+  # config.remember_for = 2.weeks
+
+  # Invalidates all the remember me tokens when th
