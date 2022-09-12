@@ -170,4 +170,6 @@ Devise.setup do |config|
   config.expire_all_remember_me_on_sign_out = true
 
   # If true, extends the user's remember period when remembered via cookie.
-  # conf
+  # config.extend_remember_period = false
+
+  # Options to be passed to the created cookie. For in
