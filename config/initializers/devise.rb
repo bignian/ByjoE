@@ -177,4 +177,7 @@ Devise.setup do |config|
   # config.rememberable_options = {}
 
   # ==> Configuration for :validatable
-  # Range f
+  # Range for password length.
+  config.password_length = 6..128
+
+  # Email regex used to v
