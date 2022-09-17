@@ -180,4 +180,5 @@ Devise.setup do |config|
   # Range for password length.
   config.password_length = 6..128
 
-  # Email regex used to v
+  # Email regex used to validate email formats. It simply asserts that
+  # one (and only one) @ exist
