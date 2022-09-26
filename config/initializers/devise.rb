@@ -199,4 +199,6 @@ Devise.setup do |config|
   # Defines which key will be used when locking and unlocking an account
   # config.unlock_keys = [:email]
 
-  # Defines which strategy
+  # Defines which strategy will be used to unlock an account.
+  # :email = Sends an unlock link to the user email
+  # :time 
