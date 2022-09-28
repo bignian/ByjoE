@@ -204,4 +204,6 @@ Devise.setup do |config|
   # :time  = Re-enables login after a certain amount of time (see :unlock_in below)
   # :both  = Enables both strategies
   # :none  = No unlock strategy. You should handle unlocking by yourself.
-  # confi
+  # config.unlock_strategy = :both
+
+  # Number of authentication tries before locking an
