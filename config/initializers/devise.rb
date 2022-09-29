@@ -210,4 +210,5 @@ Devise.setup do |config|
   # is failed attempts.
   # config.maximum_attempts = 20
 
-  # Time 
+  # Time interval to unlock the account if :time is enabled as unlock_strategy.
+  # config.unl
