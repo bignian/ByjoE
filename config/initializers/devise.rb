@@ -211,4 +211,7 @@ Devise.setup do |config|
   # config.maximum_attempts = 20
 
   # Time interval to unlock the account if :time is enabled as unlock_strategy.
-  # config.unl
+  # config.unlock_in = 1.hour
+
+  # Warn on the last attempt before the account is locked.
+  # config.l
