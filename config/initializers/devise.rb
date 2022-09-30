@@ -218,4 +218,5 @@ Devise.setup do |config|
 
   # ==> Configuration for :recoverable
   #
-  # De
+  # Defines which key will be used when recovering the password for an account
+  # config.
