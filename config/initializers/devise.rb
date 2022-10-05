@@ -234,4 +234,5 @@ Devise.setup do |config|
   # Allow you to use another hashing or encryption algorithm besides bcrypt (default).
   # You can use :sha1, :sha512 or algorithms from others authentication tools as
   # :clearance_sha1, :authlogic_sha512 (then you should set stretches above to 20
-  # for default
+  # for default behavior) and :restful_authentication_sha1 (then you should set
+  # stretche
