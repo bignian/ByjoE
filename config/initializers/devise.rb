@@ -242,4 +242,6 @@ Devise.setup do |config|
 
   # ==> Scopes configuration
   # Turn scoped views on. Before rendering "sessions/new", it will first check for
-  # "users/sessions/new". It's turned off by 
+  # "users/sessions/new". It's turned off by default because it's slower if you
+  # are using only default views.
+  # config.s
