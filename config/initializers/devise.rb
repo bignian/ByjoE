@@ -252,4 +252,7 @@ Devise.setup do |config|
 
   # Set this configuration to false if you want /users/sign_out to sign out
   # only the current scope. By default, Devise signs out all scopes.
-  # config.sign_out
+  # config.sign_out_all_scopes = true
+
+  # ==> Navigation configuration
+  # Lists the fo
