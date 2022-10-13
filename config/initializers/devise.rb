@@ -256,4 +256,5 @@ Devise.setup do |config|
 
   # ==> Navigation configuration
   # Lists the formats that should be treated as navigational. Formats like
-  # :html, should redir
+  # :html, should redirect to the sign in page when the user does not have
+  # access, but formats like :xml or :json,
