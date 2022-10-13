@@ -255,4 +255,5 @@ Devise.setup do |config|
   # config.sign_out_all_scopes = true
 
   # ==> Navigation configuration
-  # Lists the fo
+  # Lists the formats that should be treated as navigational. Formats like
+  # :html, should redir
