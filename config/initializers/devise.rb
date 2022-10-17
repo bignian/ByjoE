@@ -263,4 +263,6 @@ Devise.setup do |config|
   # should add them to the navigational formats lists.
   #
   # The "*/*" below is required to match Internet Explorer requests.
-  # config.na
+  # config.navigational_formats = ['*/*', :html]
+
+  # The default HTTP method used to sign 
