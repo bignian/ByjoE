@@ -262,4 +262,5 @@ Devise.setup do |config|
   # If you have any extra navigational formats, like :iphone or :mobile, you
   # should add them to the navigational formats lists.
   #
-  # The "*
+  # The "*/*" below is required to match Internet Explorer requests.
+  # config.na
