@@ -279,4 +279,8 @@ Devise.setup do |config|
   #
   # config.warden do |manager|
   #   manager.intercept_401 = false
-  #   manager.default_strategies(scope: :user).unshift :som
+  #   manager.default_strategies(scope: :user).unshift :some_external_strategy
+  # end
+
+  # ==> Mountable engine configurations
+  
