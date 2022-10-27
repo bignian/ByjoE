@@ -305,4 +305,5 @@ Devise.setup do |config|
 
   # ==> Configuration for :registerable
 
-  # When set to false, does not 
+  # When set to false, does not sign a user in automatically after their password is
+  # changed. Defaults to
