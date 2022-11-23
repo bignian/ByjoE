@@ -14,4 +14,8 @@ ActiveRecord::Schema[7.0].define(version: 2023_01_09_124241) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
-  create_table "posts", force: :ca
+  create_table "posts", force: :cascade do |t|
+    t.string "name"
+    t.string "title"
+    t.text "content"
+    t.dateti
