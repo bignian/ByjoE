@@ -18,4 +18,8 @@ ActiveRecord::Schema[7.0].define(version: 2023_01_09_124241) do
     t.string "name"
     t.string "title"
     t.text "content"
-    t.dateti
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table 
