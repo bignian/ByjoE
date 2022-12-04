@@ -31,4 +31,6 @@ ActiveRecord::Schema[7.0].define(version: 2023_01_09_124241) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.string "user_type"
-    t.string "confirm
+    t.string "confirmation_token"
+    t.datetime "confirmed_at"
+    t.datetime "confirmation_sent_
