@@ -35,4 +35,5 @@ ActiveRecord::Schema[7.0].define(version: 2023_01_09_124241) do
     t.datetime "confirmed_at"
     t.datetime "confirmation_sent_at"
     t.string "unconfirmed_email"
-    t.index ["confirmation_token"], name: "index
+    t.index ["confirmation_token"], name: "index_users_on_confirmation_token", unique: true
+    t.index ["email"], n
