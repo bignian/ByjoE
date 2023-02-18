@@ -21,3 +21,7 @@ RSpec.describe PostsController, type: :routing do
 
     it "routes to #create" do
       expect(post: "/posts").to route_to("posts#create")
+    end
+
+    it "routes to #update via PUT" do
+      expect(put: "/posts/1").to route_to("po
