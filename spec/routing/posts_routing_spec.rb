@@ -24,4 +24,8 @@ RSpec.describe PostsController, type: :routing do
     end
 
     it "routes to #update via PUT" do
-      expect(put: "/posts/1").to route_to("po
+      expect(put: "/posts/1").to route_to("posts#update", id: "1")
+    end
+
+    it "routes to #update via PATCH" do
+      expect(patch: "/po
