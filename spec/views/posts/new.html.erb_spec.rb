@@ -7,4 +7,9 @@ RSpec.describe "posts/new", type: :view do
       title: "MyString",
       content: "MyText"
     ))
-  e
+  end
+
+  it "renders new post form" do
+    render
+
+    assert_select "form[action=?][method=?
