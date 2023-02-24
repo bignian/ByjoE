@@ -11,4 +11,6 @@ RSpec.describe "posts/show", type: :view do
 
   it "renders attributes in <p>" do
     render
-    expect(rendered).to
+    expect(rendered).to match(/Name/)
+    expect(rendered).to match(/Title/)
+    expect(render
