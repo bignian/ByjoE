@@ -4,4 +4,11 @@ RSpec.describe "posts/show", type: :view do
   before(:each) do
     assign(:post, Post.create!(
       name: "Name",
-      title: "Title"
+      title: "Title",
+      content: "MyText"
+    ))
+  end
+
+  it "renders attributes in <p>" do
+    render
+    expect(rendered).to
