@@ -13,4 +13,6 @@ RSpec.describe "posts/show", type: :view do
     render
     expect(rendered).to match(/Name/)
     expect(rendered).to match(/Title/)
-    expect(render
+    expect(rendered).to match(/MyText/)
+  end
+end
